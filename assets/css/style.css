@@ -89,19 +89,30 @@ nav ul li {
 .section-title {
     font-weight: bold;
     font-size: 48px;
-    border-bottom: 3px solid;
+    border-right: 3px solid;
     text-align: center;
+    width: 275px;
 }
 
 /* About Me Section */
 #aboutme {
+    display: flex;
     width: 100%;
     padding:0 20% 20px 20%;
     /* background-color: red; */
 }
 
+.aboutme-info {
+    flex: 1 0 0;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
 /* My work Section */
 #mywork {
+    display: flex;
     width: 100%;
     padding:0 20% 20px 20%;
     /* background-color: yellow; */
@@ -122,23 +133,20 @@ nav ul li {
     border-radius: 10%;
     position: relative;
     
-}
-
-.featured-work img:hover {
-    max-width: 350px;
     
+}
+.first-app img {
+    max-width: 600px;
 }
 
 .featured-text {
     position:relative;
     text-align: left;
-    padding: 10px;
     font-size: 36px;
-    
     bottom: 60px;
     left: 40px;
-    
     color: rgb(12, 11, 11);
+    
 }
 
 .featured-work a {
@@ -160,6 +168,7 @@ nav ul li {
 }
 
 #contactme {
+    display: flex;
     width: 100%;
     padding:0 20% 20px 20%;
     /* background-color: cyan; */
@@ -217,5 +226,24 @@ nav ul li {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    
+    .section-title {
+        border-right: 0 solid;
+        border-bottom: 3px solid;
+        
+    }
+
+    #aboutme {
+        display: block;
+        padding:0 10% 10px 10%;
+    }    
+
+    #mywork {
+        display: block;
+        padding:0 10% 10px 10%;
+    }
+
+    #contactme {
+        display: block;
+        padding:0 10% 10px 10%;
+    }
 }
