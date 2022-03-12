@@ -1,19 +1,38 @@
 :root {
-    --bg-color: rgb(143, 12, 143);
+    --primary-section-color: rgb(143, 12, 143);
+    --secondary-section-color: rgb(21, 12, 143);
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
+body {
+    
+    font-family: Helvetica, Arial, sans-serif;
+  }
 
 header{
     margin: 50px auto;
     width: 80%;
     align-items: center;
     text-align: center;
-    
+    width: 50%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    border-bottom: 3px solid;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 48px;
+    border-bottom: 3px solid;
+    text-align: center;
 }
 
 .profile-pic{
@@ -23,7 +42,7 @@ header{
 .profile-pic img {
 
     width: 30%;
-    border-radius: 30%;
+    border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,11 +69,14 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+#aboutme {
+    width: 80%;
+    padding-left: 20%;
+}
 #mywork {
     width: 80%;
     padding-left: 20%;
-    text-align: center;
+    
 }
 
 .featured-work {
@@ -93,3 +115,48 @@ nav ul li {
 .featured-work a {
     text-decoration: none;
 }
+
+#contactme {
+    width: 80%;
+    padding-left: 20%;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid ;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+  }
+  
+.contact-form button {
+    width: 100%;
+    border: none;
+    
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact-info > * {
+    flex: 1;
+    margin: 15px;
+  }
+  
