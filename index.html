@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Chris Burton </title>
 </head>
+
 <body>
     <header>
         <section class="profile-name">
@@ -14,62 +17,63 @@
         </section>
         <section class="profile-pic">
             <img src="./assets/images/profilepic.jpeg" alt="/">
-        </section>    
+        </section>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#aboutme">About Me</a>
+                </li>
+                <li>
+                    <a href="#mywork">My Work</a>
+                </li>
+                <li>
+                    <a href="#contactme">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-        
-    
-    <nav>
-        <ul>
-            <li>
-                <a href="#aboutme">About Me</a>
-            </li>
-            <li>
-                <a href="#mywork">My Work</a>
-            </li>
-            <li>
-                <a href="#contactme">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
+
     <section id="aboutme">
         <h2 class="section-title">About Me</h2>
         <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla quaerat iusto sit modi consectetur non reprehenderit neque ex? Libero eius minima ducimus, animi nostrum similique maiores esse illum minus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nulla quaerat iusto sit modi consectetur non
+            reprehenderit neque ex? Libero eius minima ducimus, animi nostrum similique maiores esse illum minus?
         </p>
     </section>
     <section id="mywork">
         <h2 class="section-title">My Work</h2>
-        
-            <div class="featured-work">
-                <section>
-                    <a href="https://wizzle13.github.io/run-buddy/">
-                        <img src="./assets/images/run-buddy.jpg" alt="Run Buddy">
-                        <div class="featured-text">
-                            Run Buddy
-                        </div> 
-                    </a>  
-                </section>   
-                <section>
-                    <a href="https://wizzle13.github.io/horiseon/">
-                        <img src="./assets/images/horiseon.jpg" alt="Horiseon">
-                        <div class="featured-text">
-                            Horiseon
-                        </div>  
-                    </a>  
-                </section>   
-                <section>
-                    <a href="/">
-                        <img src="./assets/images/run-buddy.jpg" alt="Run Buddy"> 
-                    </a>  
-                </section>   
-                <section>
-                    <a href="/">
-                        <img src="./assets/images/run-buddy.jpg" alt="Run Buddy"> 
-                    </a>  
-                </section>   
-                
-            </div>
-        
+
+        <div class="featured-work">
+            <section>
+                <a href="https://wizzle13.github.io/run-buddy/">
+                    <img src="./assets/images/run-buddy.jpg" alt="Run Buddy">
+                    <div class="featured-text">
+                        Run Buddy
+                    </div>
+                </a>
+            </section>
+            <section>
+                <a href="https://wizzle13.github.io/horiseon/">
+                    <img src="./assets/images/horiseon.jpg" alt="Horiseon">
+                    <div class="featured-text">
+                        Horiseon
+                    </div>
+                </a>
+            </section>
+            <section>
+                <a href="/">
+                    <img src="./assets/images/run-buddy.jpg" alt="Run Buddy">
+                </a>
+            </section>
+            <section>
+                <a href="/">
+                    <img src="./assets/images/run-buddy.jpg" alt="Run Buddy">
+                </a>
+            </section>
+
+        </div>
+
     </section>
     <section id="contactme">
         <h2 class="section-title">Contact Me</h2>
@@ -80,20 +84,21 @@
                 Email: <a href="mailto:burton.chris13@gmail.com">burton.chris13@gmail.com</a>
             </address>
             <div class="contact-form">
-                <form>
+                <form action="mailto:burton.chris13@gmail.com">
                     <label for="contact-name">Your Name</label>
                     <input type="text" id="contact-name" placeholder="Your Name" />
-                
+
                     <label for="contact-message">Message</label>
                     <textarea id="contact-message" placeholder="Message"></textarea>
-                
+
                     <button type="submit">Submit</button>
                 </form>
-            </div>    
+            </div>
         </div>
     </section>
     <footer>
 
     </footer>
 </body>
+
 </html>

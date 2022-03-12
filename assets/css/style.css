@@ -1,3 +1,6 @@
+/*
+    Basic page settings
+*/
 :root {
     --primary-section-color: rgb(143, 12, 143);
     --secondary-section-color: rgb(21, 12, 143);
@@ -12,42 +15,50 @@
 body {
     
     font-family: Helvetica, Arial, sans-serif;
+    /* background-color: green; */
   }
 
+  /*
+    End of Basic page settings
+  */
+
+
+  /*
+    Header and Nav Section
+  */
 header{
     margin: 50px auto;
-    width: 80%;
-    align-items: center;
-    text-align: center;
-    width: 50%;
+    width: 100%;
+    padding:0 20% 20px 20%;
+    /* background-color: blue; */
 }
 
 header h1 {
+    margin: 0 auto;
     font-weight: bold;
     font-size: 48px;
-    border-bottom: 3px solid;
-}
-
-.section-title {
-    font-weight: bold;
-    font-size: 48px;
-    border-bottom: 3px solid;
+    align-items: center;
     text-align: center;
+    width: 80%;
+    border-bottom: 3px solid;
 }
 
+
+/* Profile image section */
 .profile-pic{
     display: flex;
     text-align: center;
 }
 .profile-pic img {
 
-    width: 30%;
+    max-width: 200px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Nav Section */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -69,13 +80,31 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-#aboutme {
-    width: 80%;
-    padding-left: 20%;
+
+/*
+    End of the Header & Nav section
+*/
+
+/* section titles */
+.section-title {
+    font-weight: bold;
+    font-size: 48px;
+    border-bottom: 3px solid;
+    text-align: center;
 }
+
+/* About Me Section */
+#aboutme {
+    width: 100%;
+    padding:0 20% 20px 20%;
+    /* background-color: red; */
+}
+
+/* My work Section */
 #mywork {
-    width: 80%;
-    padding-left: 20%;
+    width: 100%;
+    padding:0 20% 20px 20%;
+    /* background-color: yellow; */
     
 }
 
@@ -86,7 +115,7 @@ nav ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-  }
+}
   
 .featured-work img {
     max-width: 300px;
@@ -116,9 +145,34 @@ nav ul li {
     text-decoration: none;
 }
 
+/* end of My Work Section */
+
+/* Contact Me Section */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+  
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 #contactme {
-    width: 80%;
-    padding-left: 20%;
+    width: 100%;
+    padding:0 20% 20px 20%;
+    /* background-color: cyan; */
+}
+
+/* Contact Form Section */
+.contact-form {
+    border:3px solid black;
+    padding:20px;
+    max-width: 300px;
+    border-radius: 15%;
+    display: block;
+    background-color: gray;
 }
 
 .contact-form input, .contact-form textarea {
@@ -126,37 +180,42 @@ nav ul li {
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
-  }
+}
   
-  .contact-form input:focus, .contact-form textarea:focus {
+.contact-form input:focus, .contact-form textarea:focus {
     background-color: rgba(255, 255, 255, 1);
     outline: none;
-  }
+}
   
 .contact-form button {
-    width: 100%;
+    width: 100px;
     border: none;
-    
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
-    border-radius: 10px;
-  }
+    border-radius: 15px;
+}
+  /* end of contact form section */
   
-  .contact-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .contact-info > * {
-    flex: 1;
-    margin: 15px;
-  }
-  
+
+  /* End of the Contact Me Section */
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+} 
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    
+}
