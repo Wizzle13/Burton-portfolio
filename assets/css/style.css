@@ -50,4 +50,46 @@ nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+#mywork {
+    width: 80%;
+    padding-left: 20%;
+    text-align: center;
+}
+
+.featured-work {
+    flex: 1 0 0;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
   
+.featured-work img {
+    max-width: 300px;
+    border-radius: 10%;
+    position: relative;
+    
+}
+
+.featured-work img:hover {
+    max-width: 350px;
+    
+}
+
+.featured-text {
+    position:relative;
+    text-align: left;
+    padding: 10px;
+    font-size: 36px;
+    
+    bottom: 60px;
+    left: 40px;
+    
+    color: rgb(12, 11, 11);
+}
+
+.featured-work a {
+    text-decoration: none;
+}
