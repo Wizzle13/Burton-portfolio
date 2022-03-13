@@ -90,14 +90,14 @@ nav ul li {
     font-weight: bold;
     font-size: 48px;
     border-right: 3px solid;
-    text-align: center;
+    text-align: left;
     width: 275px;
 }
 
 /* About Me Section */
 #aboutme {
     display: flex;
-    width: 100%;
+     width: 100%;
     padding:0 20% 20px 20%;
     /* background-color: red; */
 }
@@ -216,12 +216,38 @@ nav ul li {
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+    .section-title {
+        width: 100px;
+        font-size: 26px;
+     
+    }
 
+    .featured-work img {
+        max-width: 200px;
+                
+    }
+    .first-app img {
+        max-width: 400px;
+    }
+
+    .featured-text {
+        font-size: 26px;
+    }    
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+    .featured-work img {
+        max-width: 110px;
+              
+    }
+    .first-app img {
+        max-width: 325px;
+    }
 
+    .featured-text {
+        font-size: 0;
+    }    
 } 
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -229,8 +255,12 @@ nav ul li {
     .section-title {
         border-right: 0 solid;
         border-bottom: 3px solid;
-        
+        text-align: center;
+        width: 100%;
     }
+    .featured-text {
+        font-size: 16;
+    }    
 
     #aboutme {
         display: block;
@@ -245,5 +275,10 @@ nav ul li {
     #contactme {
         display: block;
         padding:0 10% 10px 10%;
+    }
+
+    .featured-work img {
+        max-width: 200px;
+              
     }
 }
