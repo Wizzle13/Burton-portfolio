@@ -10,6 +10,6 @@ This page will be updated as I contine to learn and create projects.
 
 ### Links
 ***
-GitHub Repository: <https://github.com/Wizzle13/portfolio>
+GitHub Repository: <https://github.com/Wizzle13/burton-portfolio>
 
-GitHub URL: <https://wizzle13.github.io/portfolio/>
+GitHub URL: <https://wizzle13.github.io/burton-portfolio/>
