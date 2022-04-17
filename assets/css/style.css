@@ -10,13 +10,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 body {
-    
-    font-family: Helvetica, Arial, sans-serif;
-    /* background-color: green; */
-  }
+   font-family: Helvetica, Arial, sans-serif;
+}
 
   /*
     End of Basic page settings
@@ -30,7 +27,6 @@ header{
     margin: 50px auto;
     width: 100%;
     padding:0 20% 20px 20%;
-    /* background-color: blue; */
 }
 
 header h1 {
@@ -43,14 +39,13 @@ header h1 {
     border-bottom: 3px solid;
 }
 
-
 /* Profile image section */
 .profile-pic{
     display: flex;
     text-align: center;
 }
-.profile-pic img {
 
+.profile-pic img {
     max-width: 200px;
     border-radius: 50%;
     display: block;
@@ -69,7 +64,6 @@ nav {
 
 nav a{
     text-decoration: none;
-    
 }
 
 nav ul {
@@ -99,7 +93,6 @@ nav ul li {
     display: flex;
      width: 100%;
     padding:0 20% 20px 20%;
-    /* background-color: red; */
 }
 
 .aboutme-info {
@@ -112,14 +105,11 @@ nav ul li {
     font-size: 20px;
 }
 
-
 /* My work Section */
 #mywork {
     display: flex;
     width: 100%;
     padding:0 20% 20px 20%;
-    /* background-color: yellow; */
-    
 }
 
 .featured-work {
@@ -135,8 +125,6 @@ nav ul li {
     max-width: 300px;
     border-radius: 10%;
     position: relative;
-    
-    
 }
 .first-app img {
     max-width: 600px;
@@ -149,7 +137,6 @@ nav ul li {
     bottom: 60px;
     left: 40px;
     color: rgb(12, 11, 11);
-    
 }
 
 .featured-work a {
@@ -174,7 +161,6 @@ nav ul li {
     display: flex;
     width: 100%;
     padding:0 20% 20px 20%;
-    /* background-color: cyan; */
 }
 
 /* Contact Form Section */
@@ -222,12 +208,10 @@ nav ul li {
     .section-title {
         width: 100px;
         font-size: 26px;
-     
     }
 
     .featured-work img {
         max-width: 200px;
-                
     }
     .first-app img {
         max-width: 400px;
@@ -242,7 +226,6 @@ nav ul li {
 @media screen and (max-width: 768px) {
     .featured-work img {
         max-width: 110px;
-              
     }
     .first-app img {
         max-width: 325px;
@@ -261,6 +244,7 @@ nav ul li {
         text-align: center;
         width: 100%;
     }
+
     .featured-text {
         font-size: 16;
     }    
@@ -282,6 +266,5 @@ nav ul li {
 
     .featured-work img {
         max-width: 200px;
-              
     }
 }
