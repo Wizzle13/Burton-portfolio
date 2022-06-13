@@ -2,7 +2,7 @@
   
 
   ![Open Issues](https://img.shields.io/github/issues-raw/wizzle13/Burton-portfolio?style=plastic)
-  
+  ![Last Commit](https://img.shields.io/github/last-commit/wizzle13/Burton-portfolio?style=plastic)
   ## Description
   This is my professional portfolio displaying an asortment of websites I have built.
 
